@@ -11,11 +11,12 @@ app = Flask(__name__)
 
 @app.route("/predict", methods=["POST"])
 def predict():
-    data = request.get_json()
-    results = make_prediction(data)
+    input_data = request.get_json()
+    output_data = make_prediction(input_data)
 
     return jsonify({
-        "results": results,
+        "input_data": input_data,
+        "output_data": output_data,
     })
 
 

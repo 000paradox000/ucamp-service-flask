@@ -20,4 +20,4 @@ rest como postman.
            enviando como body un JSON con la información que requiere 
            el modelo.
 
-    [![Ejemplo en postman](./docs/images/postman.png)](./docs/images/postman.png)
+    [![Ejemplo en postman](./docs/images/postman.png)](./docs/images/httpie.png)
